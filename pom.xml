@@ -72,4 +72,16 @@
       </plugins>
     </pluginManagement>
   </build>
+    <distributionManagement>
+    <repository>
+      <id>deployment</id>
+      <name>Internal Releases</name>
+      <url>http://localhost:8081/repository/SAMPLE_REL/>
+    </repository>
+      <snapshotrepository>
+      <id>deployment</id>
+      <name>Internal Snapshot Releases</name>
+      <url>http://localhost:8081/repository/SAMPLE_SNAP/</url>
+    </snapshotrepository>
+      </distributionManagement>
 </project>
