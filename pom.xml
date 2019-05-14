@@ -78,10 +78,10 @@
       <name>Internal Releases</name>
       <url>http://localhost:8081/repository/SAMPLE_REL/</url>
     </repository>
-      <snapshotrepository>
+      <snapshotRepository>
       <id>deployment</id>
       <name>Internal Snapshot Releases</name>
       <url>http://localhost:8081/repository/SAMPLE_SNAP/</url>
-    </snapshotrepository>
+    </snapshotRepository>
       </distributionManagement>
 </project>
